@@ -1,0 +1,37 @@
+<!DOCTYPE html> 
+<html> 
+	<head> 
+		<title>User Manager </title> 
+        <link href="style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <style>
+            .form{
+                border:1px solid rgb(3, 162, 255); 
+                margin-left: auto;  
+                margin-right: auto;  
+                border-collapse: collapse;    
+                text-align: center;  
+                font-size: 20px; }
+        </style>
+    
+    </head> 
+	<body> 
+        <br>
+        <h6 class="text-center" style="color:red">{{warn}}</h2>
+            <br>
+            <h2> Users</h2>
+            <br>
+		<form method="POST" class="text-center"> 
+            <label>ID:</label> 
+			<input type="int" name="id" placeholder="Enter your ID" required><br> <br>
+			<label>Name:</label> 
+			<input type="name" name="name" placeholder="Enter your name" required><br> <br>
+			<label>Email:</label> 
+			<input type="email" name="email" placeholder="Enter your email" required><br> <br>
+			<label>Phone:</label> 
+			<input type="name" name="phone" placeholder="Your Phone Number" required><br> <br>
+            <br>
+			<input type = "submit" class="btn-success" value = "submit"/><br> <br>
+		</form> 
+	</body> 
+</html>
